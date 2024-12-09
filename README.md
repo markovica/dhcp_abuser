@@ -40,12 +40,9 @@ or
 `ifconfig ens33 -promisc`
 
 
-# IMPORTANT!!! 
+# DISCLAIMER 
 
-Make sure you have the authorisation to run tests against the DHCP server. 
-
-
-
+**Make sure you have the authorisation to run tests against the DHCP server.**
 
 
 **Thanks to Vladimir Pantic for technical assistance.**
