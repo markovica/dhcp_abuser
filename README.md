@@ -9,10 +9,12 @@ Intended use: occupy a DHCP range for testing purposes.
 # Usage 
 
 Step 1: Put network interface in promiscuous mode
-`ip link set ens33 promisc on
-`or
-`ifconfig ens33 promisc
-`
+
+`ip link set ens33 promisc on`
+
+or
+
+`ifconfig ens33 promisc`
 
 Step 2: Run the sniffer.py to intercept traffic and answer to DHCPOFFERs
 `python sniffer.py --giaddr 10.10.15.1 --iface ens33
