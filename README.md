@@ -6,6 +6,8 @@ Intended use: occupy a DHCP range for testing purposes.
 2) intercepts packets in promiscuous mode destined for other subnets
 3) crafts fake DHCPREQUEST
 
+Requirements: Python3, scapy and argparse 
+
 # Usage 
 
 **Step 1:** Put network interface in promiscuous mode
